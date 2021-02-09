@@ -1,5 +1,6 @@
 public class Launcher {
     public static void main(String[] args) {
-        new Game("SurvivalGame", 400, 400);
+        Game game = new Game("SurvivalGame", 400, 400);
+        game.start();
     }
 }
